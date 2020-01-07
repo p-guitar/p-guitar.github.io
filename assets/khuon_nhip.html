@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>khuôn nhạc</title>
+    <style>
+        .khuon {
+            margin-top: 20px;
+        }
+        .khuon > div {
+            display: inline-block;
+            margin-left: 10px;
+            background-color: blue;
+            position: relative;
+        }
+
+        .khuon .hopam{
+            top: 0;
+            position: absolute;
+            margin-top: -1em;
+            color: red;
+        }
+        .hanhdong{
+            color: red;
+            position: absolute;
+            margin-top: -0.1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="khuon">
+        <div>
+            <p class="hopam">C</p>
+            <svg width="16" height="96">
+                <line x1="8" y1="0" x2="8" y2="96" style="stroke:rgb(0,0,0);stroke-width:1" />
+                <polygon points="0,80 8,96 16,80" style="stroke:#000;stroke-width:1" />
+            </svg>
+            <p class="hanhdong">B</p>
+        </div>
+        <div>
+            <svg width="16" height="96">
+            </svg>
+        </div>
+        <div>
+            <svg width="16" height="96">
+                <line x1="8" y1="0" x2="8" y2="96" style="stroke:rgb(0,0,0);stroke-width:1" />
+                <polygon points="0,80 8,96 16,80" style="stroke:#000;stroke-width:1" />
+            </svg>
+        </div>
+        <div>
+            <svg width="16" height="96">
+                <line x1="8" y1="48" x2="8" y2="96" style="stroke:rgb(0,0,0);stroke-width:1" />
+                <polygon points="0,64 8,48 16,64" />
+            </svg>
+        </div>
+        <div>
+            <svg width="16" height="96">
+                <line x1="8" y1="48" x2="8" y2="96" style="stroke:rgb(0,0,0);stroke-width:1" />
+                <polygon points="0,80 8,96 16,80" />
+            </svg>
+        </div>
+    </div>
+</body>
+
+</html>
